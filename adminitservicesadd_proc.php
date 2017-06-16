@@ -19,9 +19,10 @@
     } else {
       $last_inserted_id = $connect->insert_id;
       $affected_rows = $connect->affected_rows;
+
     }
       
-    //echo $userID;
+    echo $userID;
 
  ?>   
 <form name='fr' action='adminitservicesview.php' method='POST'>
